@@ -11,9 +11,9 @@
         compatible = "zmk,keymap";
 
 &kscan0 {
-    debounce-period = <5>;
+    debounce-press-ms = <5>;
+    debounce-release-ms = <5>;
 };
-
         default_layer {
 // Commented layout is not actual layout.
 // -------------------------------------------------------------------------------------------------------------------------
