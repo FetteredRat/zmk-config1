@@ -18,23 +18,22 @@
 /* ───────────────────────── LEFT HAND ───────────────────────── */
 &kp ESC    &kp N1   &kp N2   &kp N3   &kp N4   &kp N5
 &kp TAB    &kp Q    &kp W    &kp F    &kp P    &kp B
-&kp CAPS   &kp A    &kp R    &kp S    &kp T    &kp G
+&kp CAPSLOCK &kp A &kp R    &kp S    &kp T    &kp G
 &kp LCTRL  &kp Z    &kp X    &kp C    &kp D    &kp V
 
-                   &kp DELETE  &kp LGUI
-                               &kp SPACE   &mo LOWER
+                   &kp DEL     &kp LGUI
+                               &kp SPACE  &mo LOWER
                                            &kp LSHIFT
                                            &kp DOWN
 
 /* ───────────────────────── RIGHT HAND ───────────────────────── */
-/* Inner column = arrows (index finger) */
                     &kp UP     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0
                     &kp LEFT   &kp L    &kp U    &kp Y    &kp SEMI &kp EQUAL
                     &kp DOWN   &kp N    &kp E    &kp I    &kp O    &kp APOS
                     &kp RIGHT  &kp K    &kp H    &kp COMMA &kp DOT &kp FSLH
 
-                               &kp ENTER   &kp BACKSPACE
-                               &mo RAISE   &kp SPACE
+                               &kp ENTER  &kp BSPC
+                               &mo RAISE  &kp SPACE
                                            &kp RSHIFT
                                            &kp UP
             >;
@@ -54,10 +53,10 @@
                                            &trans
 
 /* Right side: window / nav helpers */
-&kp C_TAB &kp F6    &kp F7    &kp F8    &kp F9    &kp F10
-&kp A_TAB &kp HOME  &kp PG_UP &kp PG_DN &kp END   &kp F11
-&kp GUI   &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT &kp F12
-&trans    &trans    &trans    &trans    &trans    &trans
+&kp LC(TAB) &kp F6    &kp F7    &kp F8    &kp F9    &kp F10
+&kp LA(TAB) &kp HOME  &kp PG_UP &kp PG_DN &kp END   &kp F11
+&kp LGUI    &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT &kp F12
+&trans      &trans    &trans    &trans    &trans    &trans
 
                                &trans     &trans
                                &trans     &trans
@@ -69,10 +68,10 @@
         lower {
             bindings = <
 /* ───────── MEDIA / SYSTEM / UTIL ───────── */
-&kp TILDE &kp F1    &kp F2    &kp F3    &kp F4    &kp F5
+&kp GRAVE &kp F1    &kp F2    &kp F3    &kp F4    &kp F5
 &trans    &kp C_VOL_UP &kp C_VOL_DN &kp C_MUTE &kp K_PLAY_PAUSE &kp K_NEXT
-&trans    &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT &kp PRINTSCREEN
-&trans    &kp K_PREV &kp K_PP &kp K_NEXT &trans   &trans
+&trans    &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT &kp PSCR
+&trans    &kp K_PREV &kp K_PLAY_PAUSE &kp K_NEXT &trans &trans
 
                    &trans      &trans
                                &trans    &trans
